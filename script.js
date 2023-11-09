@@ -30,7 +30,7 @@ const generateAiImages = async (userPrompt, userImgQuantity) => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer ${OPENAI_API_KEY}`,
+        "Authorization": `Bearer ${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}`,
       },
       body: JSON.stringify({
         prompt: userPrompt,
